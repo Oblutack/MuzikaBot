@@ -1,0 +1,14 @@
+services:
+  - type: worker  # Važno: tip mora biti 'worker' za bota
+    name: muzika-bot
+    env: python
+    plan: free # Koristimo besplatni plan
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.4 # Određujemo verziju Pythona
+      - key: DISCORD_BOT_TOKEN
+        sync: false # Važno: Ne spremamo token u GitHub
+      - key: BOT_PREFIX
+        sync: false
