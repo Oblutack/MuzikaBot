@@ -28,9 +28,10 @@ Za pokretanje ovog bota, slijedite ove korake:
 -   [FFmpeg](https://ffmpeg.org/download.html) (mora biti dodan u sistemski PATH)
 
 ### 2. Kloniranje repozitorija
-
+```bash
 git clone https://github.com/[VašeGitHubKorisničkoIme]/[ImeRepozitorija].git
 cd [ImeRepozitorija]
+```
 
 ### 3. Instalacija ovisnosti
 ```bash
