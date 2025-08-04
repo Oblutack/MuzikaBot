@@ -1,12 +1,12 @@
 # MuzikaBot 🎶
 
-Jednostavan, ali moćan Discord glazbeni bot napravljen u Pythonu koristeći `discord.py`. Bot može puštati pjesme i playliste s YouTubea, preskakati pjesme i još mnogo toga.
+Jednostavan Discord bot za muziku napravljen u Pythonu koristeći `discord.py`. Bot može puštati pjesme i playliste s YouTubea, preskakati pjesme i još mnogo toga.
 
 ## Značajke ✨
 
--   **Puštanje glazbe s YouTubea:** Pustite bilo koju pjesmu koristeći pretragu ili direktan link.
--   **Podrška za playliste:** Dodajte cijele YouTube playliste u red jednim potezom.
--   **Upravljanje redom:** Jednostavne komande za preskakanje (`/skip`) i zaustavljanje (`/stop`) glazbe.
+-   **Puštanje muzike s YouTubea:** Pustite bilo koju pjesmu koristeći pretragu ili direktan link.
+-   **Podrška za playliste:** Dodajte cijele YouTube playliste.
+-   **Upravljanje redom:** Jednostavne komande za preskakanje (`/skip`) i zaustavljanje (`/stop`) muzike.
 -   **Jednostavnost korištenja:** Intuitivne komande dizajnirane za brz i lak pristup.
 -   **Hosting-Ready:** Spreman za postavljanje (deployment) na platforme poput Render.com.
 
@@ -57,7 +57,3 @@ Za hosting, platforma će koristiti `startCommand` definiran u `render.yaml` dat
 -   **Audio:** [yt-dlp](https://github.com/yt-dlp/yt-dlp) & [FFmpeg](https://ffmpeg.org/)
 
 ---
-
-_Ovaj projekt je napravljen kao dio učenja i za osobnu upotrebu._
-
-
