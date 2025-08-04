@@ -29,15 +29,15 @@ Za pokretanje ovog bota, slijedite ove korake:
 
 ### 2. Kloniranje repozitorija
 
-```bash
+bash
 git clone https://github.com/[VašeGitHubKorisničkoIme]/[ImeRepozitorija].git
 cd [ImeRepozitorija]
 
-## 3. Instalacija ovisnosti
+### 3. Instalacija ovisnosti
 
 pip install -r requirements.txt
 
-## 4. Konfiguracija
+### 4. Konfiguracija
 
 Bot zahtijeva tajni token za spajanje na Discord. Postavite "Secret" / "Environment" varijablu na vašoj hosting platformi (npr. Render, Replit):
 - DISCORD_BOT_TOKEN: Vaš tajni bot token s Discord Developer Portala.
