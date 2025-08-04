@@ -48,5 +48,16 @@ Za lokalno pokretanje:
 ```py
 python main.py
 ```
+Za hosting, platforma će koristiti `startCommand` definiran u `render.yaml` datoteci.
+
+## Tehnologije 🛠️
+
+-   **Jezik:** Python
+-   **Biblioteka:** [discord.py](https://github.com/Rapptz/discord.py)
+-   **Audio:** [yt-dlp](https://github.com/yt-dlp/yt-dlp) & [FFmpeg](https://ffmpeg.org/)
+
+---
+
+_Ovaj projekt je napravljen kao dio učenja i za osobnu upotrebu._
 
 
